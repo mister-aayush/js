@@ -54,3 +54,4 @@ console.log(favNum);
 console.log(mixedarr);
   favSinger.push("ishanThapa");
 console.log(favSinger);
+console.log(favSinger.join('-'));
