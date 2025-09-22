@@ -45,13 +45,32 @@
 
 // Array
 
-const favSinger=["nabin k bhattrai", "Ishan onta" , "Sabin Rai"];
-console.log(favSinger[0]);
+// const favSinger=["nabin k bhattrai", "Ishan onta" , "Sabin Rai"];
+// console.log(favSinger[0]);
 
-const favNum = [1,2,3,4];
-const mixedarr =   ["aayush",["gurjudhara","nepal"],123, true];
-console.log(favNum);
-console.log(mixedarr);
-  favSinger.push("ishanThapa");
-console.log(favSinger);
-console.log(favSinger.join('-'));
+// const favNum = [1,2,3,4];
+// const mixedarr =   ["aayush",["gurjudhara","nepal"],123, true];
+// console.log(favNum);
+// console.log(mixedarr);
+//   favSinger.push("ishanThapa");
+// console.log(favSinger);
+// console.log(favSinger.join('-'));
+
+
+
+// objects concept
+ let person = {
+    firstName : "Aayush", 
+    lastName: "Shrestha",
+    age : 19,
+    location: ["Earth","Planet"],
+    isProgrammer : true,
+};
+
+person.clz = "uni";
+console.log(person);
+
+// ascessing item in object
+console.log(person.age);
+
+console.log(person['firstName']);
