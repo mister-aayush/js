@@ -59,18 +59,31 @@
 
 
 // objects concept
- let person = {
-    firstName : "Aayush", 
-    lastName: "Shrestha",
-    age : 19,
-    location: ["Earth","Planet"],
-    isProgrammer : true,
-};
+//  let person = {
+//     firstName : "Aayush", 
+//     lastName: "Shrestha",
+//     age : 19,
+//     location: ["Earth","Planet"],
+//     isProgrammer : true,
+// };
 
-person.clz = "uni";
-console.log(person);
+// person.clz = "uni";
+// console.log(person);
 
-// ascessing item in object
-console.log(person.age);
+// // ascessing item in object
+// console.log(person.age);
 
-console.log(person['firstName']);
+// console.log(person['firstName']);
+
+// tasks
+
+let car ={
+    type : 'hundai',
+    model : 2006,
+    color: 'black',
+}
+console.log(car.type);
+console.log(car.type = "suzuki");
+car.wheels = "nice";
+console.log(typeof(car));
+console.log(car);
