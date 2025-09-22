@@ -52,3 +52,5 @@ const favNum = [1,2,3,4];
 const mixedarr =   ["aayush",["gurjudhara","nepal"],123, true];
 console.log(favNum);
 console.log(mixedarr);
+  favSinger.push("ishanThapa");
+console.log(favSinger);
