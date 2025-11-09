@@ -87,3 +87,4 @@ console.log(car.type = "suzuki");
 car.wheels = "nice";
 console.log(typeof(car));
 console.log(car);
+console.log(car.wheels);
