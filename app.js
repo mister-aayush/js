@@ -55,10 +55,10 @@
 //   favSinger.push("ishanThapa");
 // console.log(favSinger);
 // console.log(favSinger.join('-'));
-const pl=["js","css"];
-console.log(pl.includes(css));
-console.log("heello ")
-;
+// const pl=["js","css"];
+// console.log(pl.includes("css"));
+// console.log(pl);
+
 
 // objects concept
 //  let person = {
