@@ -61,6 +61,8 @@
 
 
 // objects concept
+// it is a data sturucture, which allows us to  store a collection of data
+
 //  let person = {
 //     firstName : "Aayush", 
 //     lastName: "Shrestha",
