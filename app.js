@@ -55,8 +55,10 @@
 //   favSinger.push("ishanThapa");
 // console.log(favSinger);
 // console.log(favSinger.join('-'));
-
-
+const pl=["js","css"];
+console.log(pl.includes(css));
+console.log("heello ")
+;
 
 // objects concept
 //  let person = {
@@ -77,13 +79,13 @@
 
 // tasks
 
-let car ={
-    type : 'hundai',
-    model : 2006,
-    color: 'black',
-}
-console.log(car.type);
-console.log(car.type = "suzuki");
-car.wheels = "nice";
-console.log(typeof(car));
-console.log(car);
+// let car ={
+//     type : 'hundai',
+//     model : 2006,
+//     color: 'black',
+// }
+// console.log(car.type);
+// console.log(car.type = "suzuki");
+// car.wheels = "nice";
+// console.log(typeof(car));
+// console.log(car);
