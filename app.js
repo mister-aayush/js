@@ -91,3 +91,11 @@
 // car.wheels = "nice";
 // console.log(typeof(car));
 // console.log(car);
+
+const person = {
+    name: "Aayush Shrestha",
+    age : 19,
+    location : ["chandrairi","Balambu"],
+    isProgrammer : true,
+};
+console.log(person);
