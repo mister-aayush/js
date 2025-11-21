@@ -99,3 +99,4 @@ const person = {
     isProgrammer : true,
 };
 console.log(person);
+console.log(person.age);
