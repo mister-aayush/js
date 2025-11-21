@@ -92,11 +92,20 @@
 // console.log(typeof(car));
 // console.log(car);
 
-const person = {
-    name: "Aayush Shrestha",
-    age : 19,
-    location : ["chandrairi","Balambu"],
-    isProgrammer : true,
-};
-console.log(person);
-console.log(person.age);
+// const person = {
+//     name: "Aayush Shrestha",
+//     age : 19,
+//     location : ["chandrairi","Balambu"],
+//     isProgrammer : true,
+// };
+// console.log(person);
+// console.log(person.age);
+
+
+// Functions
+// a function is a block of code that performs a specific task
+
+// syntax = functionName (parameterIfAny){....}
+function greet( ){
+    console.log("function call sucessfully");
+}
