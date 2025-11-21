@@ -128,10 +128,55 @@
 
 //challenfges
 
-function myFunction(a,b){
-    return a *b;
+// function myFunction(a,b){
+//     return a *b;
+    
+// }
+// const res = myFunction(2,5);
+// console.log(res);
+// myFunction();
+
+// function decleration 
+// function sayHello(username){
+//     console.log(`hello ${username}`);
+// }
+// sayHello("ram");
+// // function expression
+// const greet = function (name){
+//     console.log(`hello ${name}`);
+// }
+// greet("aayush");
+
+//call back function in js
+// when we provide funciton as an argument to other function that functin is
+//known as call back funciton.
+
+// function showCallFunv(fn)   {
+//     const val = 10;
+//     fn(val)
+    
+// }
+// showCallFunv(function(val){
+//     console.log(val);
+// });
+//self try
+// function greet(name,callback ) {
+//     console.log(`HEllo ${name}`);
+//     callback();
+// }
+// function callback(){
+//     console.log(`This is a callback function`);
+
+// }
+// greet("Aayush",callback);
+
+
+function showCallFunc(fn) {
+    let a=10;
+    fn(a);
     
 }
-const res = myFunction(2,5);
-console.log(res);
-myFunction();
+
+showCallFunc(function(a){
+    console.log(a);
+});
