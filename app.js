@@ -106,6 +106,32 @@
 // a function is a block of code that performs a specific task
 
 // syntax = functionName (parameterIfAny){....}
-function greet( ){
-    console.log("function call sucessfully");
+// function greet( ){
+//     console.log("function call sucessfully.");
+// }
+// greet();
+
+// function sayHello(name){
+//     console.log(`Hello ${name}`);
+// }
+// sayHello("Aayush");
+// sayHello("Prince");
+// sayHello("ishan");
+// sayHello("ram");
+
+//return in function
+
+// function add(x,y) {
+//     return x+y;
+// }
+// console.log(add(10,5));
+
+//challenfges
+
+function myFunction(a,b){
+    return a *b;
+    
 }
+const res = myFunction(2,5);
+console.log(res);
+myFunction();
