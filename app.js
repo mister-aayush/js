@@ -185,11 +185,40 @@
 // scope in js  refers to the current context of code which determines the accessibility 
 // of a variable  to js 
 
-let textMessage="This is  message";
-console.log(textMessage);
+// let textMessage="This is  message"; this is global
+// console.log(textMessage);
 
-function showMsg(){
-    let textMessage ="HI";
-    console.log(textMessage);
-}
-showMsg();
+// function showMsg(){
+//     let textMessage ="HI";// this is local
+//     console.log(textMessage);
+// }
+// showMsg();
+
+// methods in js
+//  it is a function inside a object
+
+// simople way to write  method
+// function greet() {
+//     return `hello, My namne is  ${person.name}. My age is ${person.age}`;
+    
+// }
+// const person ={
+//     name :"Aayush",
+//     age : 19,
+//     greet,
+// };
+// console.log(person.greet());
+
+// real-world method
+
+const person ={
+    name :"Aayush",
+    age : 19,
+    greet: function greet() {
+            return `hello, My namne is  ${person.name}. My age is ${person.age}`; 
+        },
+};
+console.log(person.greet());
+
+
+
