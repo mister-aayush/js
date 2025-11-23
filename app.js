@@ -171,12 +171,25 @@
 // greet("Aayush",callback);
 
 
-function showCallFunc(fn) {
-    let a=10;
-    fn(a);
+// function showCallFunc(fn) {
+//     let a=10;
+//     fn(a);
     
-}
+// }
 
-showCallFunc(function(a){
-    console.log(a);
-});
+// showCallFunc(function(a){
+//     console.log(a);
+// });
+
+// scope 
+// scope in js  refers to the current context of code which determines the accessibility 
+// of a variable  to js 
+
+let textMessage="This is  message";
+console.log(textMessage);
+
+function showMsg(){
+    let textMessage ="HI";
+    console.log(textMessage);
+}
+showMsg();
