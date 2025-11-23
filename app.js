@@ -211,14 +211,17 @@
 
 // real-world method
 
-const person ={
-    name :"Aayush",
-    age : 19,
-    greet: function greet() {
-            return `hello, My namne is  ${person.name}. My age is ${person.age}`; 
-        },
-};
-console.log(person.greet());
+// const person ={
+//     name :"Aayush",
+//     age : 19,
+//     greet: function greet() {
+//             return `hello, My namne is  ${person.name}. My age is ${person.age}`; 
+//         },
+// };
+// console.log(person.greet());
+
+
+// json
 
 
 
