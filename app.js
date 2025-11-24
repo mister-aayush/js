@@ -221,7 +221,11 @@
 // console.log(person.greet());
 
 
-// json
+// JSON stands for js object notation
+
+{
+    "name"
+}
 
 
 
