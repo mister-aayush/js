@@ -223,9 +223,5 @@
 
 // JSON stands for js object notation
 
-{
-    "name"
-}
-
 
 
