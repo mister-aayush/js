@@ -223,5 +223,20 @@
 
 // JSON stands for js object notation
 
+const person ={
+    name: "Aayush",
+    age: 19,
+    email: "Shrestha@gmail.com",
+    hobbies: ["Reading", "Running"],
+    address: {
+        city: "kathmandu",
+        idk: "Nepal"
+    },
+};
+
+
+// json.stringify()
+console.log(
+    JSON.stringify(person));
 
 

@@ -1,0 +1,10 @@
+  {
+    "name": "Aayush",
+    "age": 19,
+    "email": "Shrestha@gmail.com",
+    "hobbies": ["Reading", "Running"],
+    "address": {
+        "city":"kathmandu",
+        "idk": "Nepal"
+    }
+}
